@@ -18,7 +18,7 @@
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "checkJs": true,
-    "types": ["node"]
+    "types": ["webdriverio"]
   },
   "include": ["src/**/*", "src/cjs/package.json"],
   "ignore": ["node_modules", "dist"]

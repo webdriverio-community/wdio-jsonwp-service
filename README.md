@@ -38,6 +38,20 @@ describe('my test suite', () => {
 })
 ```
 
+### Standalone
+
+If you are using WebdriverIO as a standalone package you can use this service by integrating this service as following:
+
+```ts
+import { remote } from 'webdriverio'
+import JSONWPService from '@wdio/jsonwp-service'
+
+const browser = await remote({ ... })
+
+const jsonwp = new JSONWPService()
+jsonwp.before(undefined, undefined, browser)
+
+await browser.buttonUp()
 ---
 
 For more information on WebdriverIO see the [homepage](https://webdriver.io).
