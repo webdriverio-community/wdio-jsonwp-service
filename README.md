@@ -33,7 +33,8 @@ import { browser } from '@wdio/globals'
 
 describe('my test suite', () => {
   it('can call JSONWP commands', async () => {
-
+    // call JSONWP command
+    await browser.buttonUp()
   })
 })
 ```
@@ -51,7 +52,10 @@ const browser = await remote({ ... })
 const jsonwp = new JSONWPService()
 jsonwp.before(undefined, undefined, browser)
 
+// call JSONWP command
 await browser.buttonUp()
+```
+
 ---
 
 For more information on WebdriverIO see the [homepage](https://webdriver.io).
