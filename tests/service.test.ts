@@ -9,6 +9,7 @@ describe('JSON Wire Protocol Service', () => {
   it('should add commands to the browser', async () => {
     const service = new JSONWPService()
     browser = await remote({
+      logLevel: 'trace',
       capabilities: {
         browserName: 'chrome',
         'goog:chromeOptions': {
