@@ -57,7 +57,7 @@
     "webdriverio": "*"
   },
   "dependencies": {
-    "@wdio/types": "^8.39.0"
+    "@wdio/types": "^9.0.4"
   },
   "peerDependencies": {
     "@wdio/protocols": "^8.38.0",
