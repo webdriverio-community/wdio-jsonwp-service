@@ -335,14 +335,14 @@ export default interface JsonwpCommands {
      * No description available, please see reference link.
      * @ref https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#sessionsessionidexecute
      */
-    executeScript(script: string, args?: (string | object | number | boolean | undefined)[]): Promise<any>;
+    executeScript(script: string, args?: (string | object | number | boolean | undefined)[]): Promise<unknown>;
     /**
      * Jsonwp Protocol Command
      *
      * No description available, please see reference link.
      * @ref https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#sessionsessionidexecute_async
      */
-    executeAsyncScript(script: string, args: (string | object | number | boolean | undefined)[]): Promise<any>;
+    executeAsyncScript(script: string, args: (string | object | number | boolean | undefined)[]): Promise<unknown>;
     /**
      * Jsonwp Protocol Command
      *
