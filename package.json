@@ -41,7 +41,7 @@
   "devDependencies": {
     "@types/node": "^20.14.6",
     "@vitest/coverage-v8": "^2.1.5",
-    "@wdio/eslint": "^0.0.3",
+    "@wdio/eslint": "^0.0.5",
     "eslint": "^9.15.0",
     "husky": "^9.1.7",
     "npm-run-all2": "^7.0.1",
